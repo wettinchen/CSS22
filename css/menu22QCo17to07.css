@@ -13,7 +13,7 @@
 
 html {
     font-size: 1.5rem;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    border-color: var(--HEADER-BGCOLOR);
+    background-color: var(--HEADER-BGCOLOR);
     color: var(--HEADER-COLOR);
 }
 
@@ -71,7 +71,7 @@ header {
 
 :is(header:hover, header:focus-within) .menu-icon {
     background-color: transparent;
-    transform: rotate(720deg);
+    transform: rotate(720deg)
 }
 
 :is(header:hover, header:focus-within) .menu-icon::before {
@@ -114,7 +114,7 @@ nav ul {
 }
 
 nav li {
-    padding: 0;
+    padding: 0.5rem;
     border-top: 1px solid var(--HEADER-COLOR);
 }
 

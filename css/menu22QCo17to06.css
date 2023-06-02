@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    border-color: var(--HEADER-BGCOLOR);
+    background-color: var(--HEADER-BGCOLOR);
     color: var(--HEADER-COLOR);
 }
 

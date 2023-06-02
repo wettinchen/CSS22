@@ -13,7 +13,7 @@
 
 html {
     font-size: 1.5rem;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    border-color: var(--HEADER-BGCOLOR);
+    background-color: var(--HEADER-BGCOLOR);
     color: var(--HEADER-COLOR);
 }
 
